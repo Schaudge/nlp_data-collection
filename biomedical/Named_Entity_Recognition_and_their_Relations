@@ -1,95 +1,22 @@
-| Type of error | Target Mutation | Target Drug | PMID Sentence |
-| NER Error
-D816F
-dasatinib
-16397263
+| Type of error | Target Mutation | Target Drug | PMID | Sentence |
+| NER Error     | D816F           | dasatinib   | 16397263 | Furthermore, dasatinib is a potent inhibitor of imatinib-resistant KIT activation loop mutants and induces apoptosis in mast cell and leukemic cell lines expressing these mutations (potency against KIT D816Y>> D816F > D816V). |
+| NER Error     | E17K            | azd5363     | 28489509 | The genomic context of the AKT1 E17K mutation further conditioned response to AZD5363. |
 
-Furthermore, dasatinib is a potent inhibitor of imatinib-resistant KIT activation loop mutants and induces apoptosis in mast cell and leukemic cell lines expressing these mutations (potency against KIT D816Y>> D816F > D816V).
-NER Error
-E17K
-azd5363
-28489509
+| 28472036 | Both assays are employed at centralized testing laboratories operating according to quality standards for prospective identification of the AKT1 E17K mutation in ER+ breast cancer patients in the context of a clinical trial evaluating the AKT inhibitor AZD5363 in combination with endocrine (fulvestrant) therapy.
+| 26931343 | Akt1 (E17K) is a potent driver mutation that may predict clinical response to AZD5363.
 
-The genomic context of the AKT1 E17K mutation further conditioned response to AZD5363.
+| Not clear / not strong relations | W557G | imatinib | 23567324 | Both the in-silico/in-vitro investigations showed constitutive activation and sensitivity to Imatinib of the yet mentioned Y578C mutation as well as of the double mutant, providing evidence that the concomitant presence of the W557G and Y578C mutations does not affect Imatinib response compare to the single mutations, in line with what observed in Imatinib treated patient. |
 
+| D2033N | cabozantinib | 26673800 | In contrast, cabozantinib binding was unaffected by the D2033N substitution, and inhibitory potency against the mutant was retained. 
+| V560D  | imatinib | 20633291 | Motesanib also demonstrated activity against kinase domain mutations conferring imatinib resistance (V560D/V654A, IC50 = 77 nM; V560D/T670I, IC50 = 277 nM; Y823 D, IC50 = 64 nM) but failed to inhibit the imatinib-resistant D816V mutant (IC50 > 3000 nM).
+| E709K  | Gefitinib, erlotinib | 27323238 | For example, G719X (X denotes A, S, C and so on), Del18, E709K, insertions in exon 19 (Ins19), S768I or L861Q showed moderate sensitivities to gefitinib or erlotinb with ORR of 30%-50%.
+| L576P  | nilotinib | 28327988 | Similar to previously reported results with imatinib, nilotinib showed greater activity among patients with an exon 11 mutation, including L576P, suggesting that nilotinib may be an effective treatment option for patients with specific KIT mutations.
 
+| 19671763 | In vitro testing showed that the cell viability of the L576P mutant cell line was not reduced by imatinib, nilotinib, or sorafenib small molecule KIT inhibitors effective in nonmelanoma cells with other KIT mutations. 
 
-28472036
-Both assays are employed at centralized testing laboratories operating according to quality standards for prospective identification of the AKT1 E17K mutation in ER+ breast cancer patients in the context of a clinical trial evaluating the AKT inhibitor AZD5363 in combination with endocrine (fulvestrant) therapy.
+ETC | D846Y, N848K | imatinib | 15928335 | Interestingly, other mutations in exon 18 (D846Y, N848K, Y849K and HDSN845-848P) were all imatinib sensitive. 
 
-
-
-
-26931343
-Akt1 (E17K) is a potent driver mutation that may predict clinical response to AZD5363.
-
-
-
-
-
-
-Not clear / not strong relations
-W557G
-imatinib
-23567324
-
-Both the in-silico/in-vitro investigations showed constitutive activation and sensitivity to Imatinib of the yet mentioned Y578C mutation as well as of the double mutant, providing evidence that the concomitant presence of the W557G and Y578C mutations does not affect Imatinib response compare to the single mutations, in line with what observed in Imatinib treated patient.
-
-
-D2033N
-cabozantinib
-26673800
-
-In contrast, cabozantinib binding was unaffected by the D2033N substitution, and inhibitory potency against the mutant was retained. 
-
-V560D
-
-imatinib
-20633291
-
-Motesanib also demonstrated activity against kinase domain mutations conferring imatinib resistance (V560D/V654A, IC50 = 77 nM; V560D/T670I, IC50 = 277 nM; Y823 D, IC50 = 64 nM) but failed to inhibit the imatinib-resistant D816V mutant (IC50 > 3000 nM).
-
-E709K
-Gefitinib, erlotinib
-27323238
-
-For example, G719X (X denotes A, S, C and so on), Del18, E709K, insertions in exon 19 (Ins19), S768I or L861Q showed moderate sensitivities to gefitinib or erlotinb with ORR of 30%-50%.
-
-	L576P
-nilotinib
-28327988
-
-Similar to previously reported results with imatinib, nilotinib showed greater activity among patients with an exon 11 mutation, including L576P, suggesting that nilotinib may be an effective treatment option for patients with specific KIT mutations.
-
-
-
-19671763
-
- In vitro testing showed that the cell viability of the L576P mutant cell line was not reduced by imatinib, nilotinib, or sorafenib small molecule KIT inhibitors effective in nonmelanoma cells with other KIT mutations. 
-ETC
-D846Y, N848K
-imatinib
-15928335
-Interestingly, other mutations in exon 18 (D846Y, N848K, Y849K and HDSN845-848P) were all imatinib sensitive. 
-
-N822I
-dasatinib
-21689725
-
-In addition, we demonstrated that KIT-N822I is resistant to imatinib and sensitive to dasatinib.
-
-
-V559D
-sorafenib
-17699867
-The Ba/F3KIT(WK557-8del/T670I) cells were sensitive only to sorafenib inhibition, whereas nilotinib was more potent on imatinib-resistant KIT(V560del/V654A) and KIT(V559D/D820Y) mutant cells than dasatinib and sorafenib.
-
-H697Y
-sunitinib
-19861435
-In cell viability assays, the V560del mutant was associated with similar sensitivities to imatinib and sunitinib, whereas the H697Ymutant displayed greater sensitivity to sunitinib.
-
-V560D
-sunitinib
-20095048
-This result correlates with the V560D mutant exhibiting a sensitivity to sunitinib that is less than for WT KIT but greater than for KIT D816H
+| N822I | dasatinib | 21689725 | In addition, we demonstrated that KIT-N822I is resistant to imatinib and sensitive to dasatinib.
+| V559D | sorafenib | 17699867 | The Ba/F3KIT(WK557-8del/T670I) cells were sensitive only to sorafenib inhibition, whereas nilotinib was more potent on imatinib-resistant KIT(V560del/V654A) and KIT(V559D/D820Y) mutant cells than dasatinib and sorafenib.
+| H697Y | sunitinib | 19861435 | In cell viability assays, the V560del mutant was associated with similar sensitivities to imatinib and sunitinib, whereas the H697Ymutant displayed greater sensitivity to sunitinib.
+| V560D | sunitinib | 20095048 | This result correlates with the V560D mutant exhibiting a sensitivity to sunitinib that is less than for WT KIT but greater than for KIT D816H
