@@ -1,2 +1,2 @@
 # nlp_data-collection
-A collection of difficult sentences for nlp understand!
+A collection of sentences for testing in natural language process!
